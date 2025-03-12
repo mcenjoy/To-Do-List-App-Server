@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List - Final Project (JS Fundamentals)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <label for="todo-input" class="sr-only">New Task</label>
+          <input
+            id="todo-input"
+            type="text"
+            class="todo-input"
+            placeholder="Add new task..."
+            aria-label="Add new task"
+          />
+          <button
+            class="todo-add-new-task-button"
+            type="submit"
+            title="Add Task"
+            aria-label="Add Task"
+          >
+            <i class="fas fa-plus"></i>
+          </button>
+          <label for="filter-todo" class="sr-only">Filter Tasks</label>
+          <div class="select">
+            <select
+              id="filter-todo"
+              name="todos"
+              class="filter-todo"
+              aria-label="Filter tasks"
+            >
+              <option value="all">All</option>
+              <option value="incomplete">Pending</option>
+              <option value="completed">Completed</option>
+            </select>
+          </div>
+        </fieldset>
+      </form>
+      <section class="todo-container-header">
+        <p>
+          You have
+          <span class="pendingTasks" aria-live="polite">0</span> pending tasks
+        </p>
+        <button type="button" class="clear-all" title="Clear all tasks">
+          Clear All
+        </button>
+      </section>
+      <section class="todo-container">
+        <ul class="todo-list"></ul>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
