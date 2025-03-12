@@ -1,4 +1,4 @@
-# To-Do-List-App-Server (Node.JS | Express + MongoDB)
+# To-Do-List-App-Server
 
 📝🗒️⏰
 
