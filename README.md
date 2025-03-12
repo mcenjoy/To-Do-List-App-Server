@@ -1,4 +1,4 @@
-# To-Do-List-App-Server
+# To-Do-List-App-Server (Node.JS | Express + MongoDB)
 
 📝🗒️⏰
 
@@ -6,6 +6,5 @@
 <p>Users should be able to create, delete, and mark tasks as complete.</p>
 <p>Use MongoDB to persist the data.</p>
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Node.js Badge](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=fff&style=flat-square)
+![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=flat)
